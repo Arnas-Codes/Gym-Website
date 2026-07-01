@@ -128,7 +128,7 @@ const Navbar = () => {
 
         {/* Mobile Sidebar */}
         <div
-          className={`fixed top-24 right-0 w-72 bg-black border-l border-neutral-800 h-[calc(100vh-6rem)] transform transition-transform duration-300 ease-in-out ${
+          className={`md:hidden fixed top-24 right-0 w-72 bg-black border-l border-neutral-800 h-[calc(100vh-6rem)] transform transition-transform duration-300 ease-in-out ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
